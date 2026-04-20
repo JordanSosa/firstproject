@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <string name="app_name">Bin Night</string>
-    <string name="notification_channel_name">Bin reminders</string>
-    <string name="notification_channel_desc">Reminds you the evening before bin night</string>
-</resources>
