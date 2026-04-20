@@ -23,9 +23,9 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import au.binnight.app.data.BinConfig
-import au.binnight.app.data.BinType
-import au.binnight.app.domain.nextCollectionOnOrAfter
+import au.binnight.core.model.BinConfig
+import au.binnight.core.model.BinType
+import au.binnight.core.nextCollectionOnOrAfter
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.temporal.ChronoUnit

@@ -1,4 +1,4 @@
-package au.binnight.app.data
+package au.binnight.core.model
 
 import kotlinx.serialization.Serializable
 

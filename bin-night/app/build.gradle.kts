@@ -1,8 +1,8 @@
 plugins {
-    id("com.android.application")
-    id("org.jetbrains.kotlin.android")
-    id("org.jetbrains.kotlin.plugin.compose")
-    id("org.jetbrains.kotlin.plugin.serialization")
+    id("com.android.application") version "8.5.2"
+    id("org.jetbrains.kotlin.android") version "2.0.20"
+    id("org.jetbrains.kotlin.plugin.compose") version "2.0.20"
+    id("org.jetbrains.kotlin.plugin.serialization") version "2.0.20"
 }
 
 android {
@@ -38,6 +38,8 @@ android {
 }
 
 dependencies {
+    implementation(project(":core"))
+
     val composeBom = platform("androidx.compose:compose-bom:2024.09.03")
     implementation(composeBom)
 

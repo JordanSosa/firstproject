@@ -1,10 +1,10 @@
-package au.binnight.app.domain
+package au.binnight.core
 
-import au.binnight.app.data.BinConfig
-import au.binnight.app.data.BinRule
-import au.binnight.app.data.BinType
-import au.binnight.app.data.Cadence
-import au.binnight.app.data.referenceDate
+import au.binnight.core.model.BinConfig
+import au.binnight.core.model.BinRule
+import au.binnight.core.model.BinType
+import au.binnight.core.model.Cadence
+import au.binnight.core.model.referenceDate
 import java.time.LocalDate
 import java.time.temporal.ChronoUnit
 import kotlin.math.abs

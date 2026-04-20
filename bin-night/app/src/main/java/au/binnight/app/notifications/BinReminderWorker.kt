@@ -15,7 +15,7 @@ import au.binnight.app.BinNightApp
 import au.binnight.app.MainActivity
 import au.binnight.app.R
 import au.binnight.app.data.BinConfigStore
-import au.binnight.app.domain.binsScheduledFor
+import au.binnight.core.binsScheduledFor
 import kotlinx.coroutines.flow.first
 import java.time.LocalDate
 

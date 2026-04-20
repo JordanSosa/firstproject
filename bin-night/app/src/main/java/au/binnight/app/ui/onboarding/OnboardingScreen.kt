@@ -27,10 +27,10 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import au.binnight.app.data.BinConfig
-import au.binnight.app.data.BinRule
-import au.binnight.app.data.BinType
-import au.binnight.app.data.Cadence
+import au.binnight.core.model.BinConfig
+import au.binnight.core.model.BinRule
+import au.binnight.core.model.BinType
+import au.binnight.core.model.Cadence
 import java.time.DayOfWeek
 import java.time.LocalDate
 

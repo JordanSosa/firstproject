@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 }
 
 rootProject.name = "BinNight"
-include(":app")
+include(":app", ":core")
